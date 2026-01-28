@@ -57,7 +57,7 @@ M.defaults = {
     },
   },
   rocks = {
-    enabled = true,
+    enabled = false,
     root = vim.fn.stdpath("data") .. "/lazy-rocks",
     server = "https://lumen-oss.github.io/rocks-binaries/",
     -- use hererocks to install luarocks?
