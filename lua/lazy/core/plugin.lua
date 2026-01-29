@@ -330,7 +330,7 @@ function M.load()
     vim.deepcopy(Config.options.spec),
   }
   specs[#specs + 1] = M.find_local_spec()
-  specs[#specs + 1] = { "folke/lazy.nvim" }
+  specs[#specs + 1] = { "git@github.com:ythienpont/lazy.nvim.ssh.git" }
 
   Config.spec:parse(specs)
 
